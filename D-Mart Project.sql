@@ -945,7 +945,7 @@ WITH RankedEmployees AS (
     FROM 
         EmployeeSalary
 )
-SELECT * FROM RankedEmployees;
+SELECT * FROM RankedEmployees where id=90 ;
 
 
 --- Rank employees by their BasicSalary in descending order using RANK -----
